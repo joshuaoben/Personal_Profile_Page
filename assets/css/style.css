@@ -89,7 +89,7 @@ body{
 	border: solid 7px rgba(0,50,100, 1);
 	box-sizing: border-box;
 	text-align: center;
-	cursor: crosshair;
+	cursor: auto;
 }
 
 .body{
