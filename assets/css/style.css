@@ -1,0 +1,20 @@
+@font-face{
+	font-family:Gothic;
+	src:url(../fonts/GOTHIC.TTF);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Gothic-Bold;
+	src:url(../fonts/GOTHICB.TTF);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Avenir;
+	src:url(../fonts/Avenir.otf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Museo-Sans;
+	src:url(../fonts/MuseoSans500.otf);
+	font-weight: bold;
+}
