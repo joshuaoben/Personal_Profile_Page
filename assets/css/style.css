@@ -156,7 +156,19 @@ body{
 	background-color: rgba(0,0,0,0.5);
 }
 .foot{
+	box-sizing: border-box;
 	color: #f3f3f3;
 	background-color: #003264;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 100%;
+}
+.foot span{
+	display: block;
+	margin: 0;
+	margin-top: 20px;
+	padding: 10px;
+	font-family: Museo-Sans
 }
 
