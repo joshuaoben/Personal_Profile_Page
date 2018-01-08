@@ -65,11 +65,16 @@
 .col-12{
 	width: 100%;
 }
-
+*{
+	background-color: #c4c4c4;
+}
+h3, h4	{
+	background-color: transparent;
+}
 body{
 	margin: 0;
 	padding: 0;
-	border: solid 5px rgba(0,50,100, 1);
+	border: solid 7px rgba(0,50,100, 1);
 	box-sizing: border-box;
 	text-align: center;
 	cursor: crosshair;
@@ -84,16 +89,20 @@ body{
 	margin: 0 auto;
 	font-family: Gothic-Bold;
 }
-
+.space {
+	background-color: transparent;
+}
 .avatar{
 	border: solid thin transparent;
 	box-shadow: 0px -30px 20px rgba(0,50,100,0.5);
-	padding: 40px 0;
+	padding: 70px 0 20px 0;
+	background-color: transparent;
 }
 
 .avatar-image{
 	width: 200px;
 	display: inline-block;
+	background-color: transparent;
 }
 
 .avatar-image img{
@@ -101,6 +110,8 @@ body{
 	border: solid 4px rgba(0,50,100, 0.5);
 	-moz-transition: border 2s, transform 3s, border-radius 1s;
 	border-radius: none;
+	background-color: transparent;
+
 }
 .avatar-image img::title{
 	background-color: #527;
@@ -113,10 +124,12 @@ body{
 }
 .avatar-details{
 	margin: 0 auto;
+	background-color: transparent;
 }
 .avatar-details span{
 	display: block;
 	margin: 5px;
+	background-color: transparent;
 }
 #name{
 	font-family: Gothic-Bold;
@@ -125,6 +138,7 @@ body{
 	margin: 8px;
 	color: rgba(0,50,100,0.8);
 	-moz-transition: color 1s;
+	background-color: transparent;
 }
 #name:hover{
 	color: rgba(0,50,100,1);
@@ -133,28 +147,59 @@ body{
 .link{
 	text-decoration: none;
 	color: #f3f3f3;
+	-moz-transition: color 1s;
+	background-color: transparent;
 }
 .links {
-	padding: 40px 0;
+	padding: 80px 0;
+	background-color: transparent;
 }
 .links ul{
 	list-style: none;
 	padding: 0;
 	text-align: center;
+	background-color: transparent;
 	
 }
 .links ul li{
-	background-color: rgba(0,0,0,0.2);
-	-moz-transition: background-color 2s;
+	background-color: rgba(0,0,0, 0.2);
+	-moz-transition: background-color 2s, border-radius 2s, border 2s;
 	text-align: left;
 	margin: 0 auto;
 	display: inline-block;
 	margin: 10px;
 	padding: 0 15px;
+	box-sizing: border-box;
+	border: solid 3px transparent;
 }
+
 .links ul li:hover{
-	background-color: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	background-color: transparent;
+	border-radius: 50px;
+	border: solid 3px #003264;
 }
+.link:hover{
+	color: rgba(0,50,100,0.9);
+}
+.contact-link{
+	background-color: transparent;
+}
+.contact{
+	background-color: #003264;
+	color: #f3f3f3;
+	padding: 10px 20px;
+	margin: 10px;
+	border: solid 3px transparent;
+	-moz-transition:border 2s, color 2s, border-radius 2s,background-color 1s;
+}
+.contact:hover{
+	background-color: transparent;
+	color: #003264;
+	border: solid 3px #003264;
+	border-radius: 50px;
+}
+
 .foot{
 	box-sizing: border-box;
 	color: #f3f3f3;
@@ -169,6 +214,9 @@ body{
 	margin: 0;
 	margin-top: 20px;
 	padding: 10px;
-	font-family: Museo-Sans
+	font-family: Museo-Sans;
+	background-color: transparent;
 }
+
+
 
